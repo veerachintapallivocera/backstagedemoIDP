@@ -1,0 +1,25 @@
+##insights-transact-metadata-1	arn:aws:rds:us-east-1:570346948435:db:insights-transact-metadata-1	rds:db	us-east-1	570346948435	-	rds	2	(not tagged)	roopa.br@stryker.com	Roopa B	Analytics and Insights
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: insights-transact-metadata-1
+  description: arn:aws:rds:us-east-1:570346948435:db:insights-transact-metadata-1
+  #arn: arn:aws:ec2:ap-south-1:570346948435:instance/i-00172be9db26a0349
+  #region: ap-south-1
+  tags: 
+    - account-570346948435
+    - analytics-and-insights
+    - us-east-1
+  #awsaccount: 570346948435
+  #team: DevOps
+  #email: VCDevOps@Stryker.com
+
+#  # Example for optional annotations
+#  # annotations:
+#  #   github.com/project-slug: backstage/backstage
+#  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: rds
+  lifecycle: experimental
+  owner: Roopa B
+  system: roopa.br@stryker.com

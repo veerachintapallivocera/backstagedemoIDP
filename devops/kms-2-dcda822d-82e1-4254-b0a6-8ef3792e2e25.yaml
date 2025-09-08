@@ -1,0 +1,25 @@
+##dcda822d-82e1-4254-b0a6-8ef3792e2e25	arn:aws:kms:us-east-1:570346948435:key/dcda822d-82e1-4254-b0a6-8ef3792e2e25	kms:key	us-east-1	570346948435	-	kms	3	KMS	alexey.shevchuk@stryker.com	Alexey S	OT
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: KMS-dcda822d-82e1-4254-b0a6-8ef3792e2e25
+  description: arn:aws:kms:us-east-1:570346948435:key/dcda822d-82e1-4254-b0a6-8ef3792e2e25
+  #arn: arn:aws:ec2:ap-south-1:570346948435:instance/i-00172be9db26a0349
+  #region: ap-south-1
+  tags: 
+    - account-570346948435
+    - ot
+    - us-east-1
+  #awsaccount: 570346948435
+  #team: DevOps
+  #email: VCDevOps@Stryker.com
+
+#  # Example for optional annotations
+#  # annotations:
+#  #   github.com/project-slug: backstage/backstage
+#  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: kms
+  lifecycle: experimental
+  owner: Alexey S
+  system: alexey.shevchuk@stryker.com	

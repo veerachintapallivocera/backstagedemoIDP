@@ -1,0 +1,25 @@
+##cloudanalytics-demo-gi98dqmzvm37	arn:aws:s3:::cloudanalytics-demo-gi98dqmzvm37	s3:bucket	us-east-1	570346948435	-	s3	3	s3_bucket	roopa.br@stryker.com	Roopa B	Analytics and Insights
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: s3-cloudanalytics-demo-gi98dqmzvm37
+  description: arn:aws:s3:::cloudanalytics-demo-gi98dqmzvm37
+  #arn: arn:aws:ec2:ap-south-1:570346948435:instance/i-00172be9db26a0349
+  #region: ap-south-1
+  tags: 
+    - account-570346948435
+    - analytics-and-insights
+    - us-east-1
+  #awsaccount: 570346948435
+  #team: DevOps
+  #email: VCDevOps@Stryker.com
+
+#  # Example for optional annotations
+#  # annotations:
+#  #   github.com/project-slug: backstage/backstage
+#  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: s3
+  lifecycle: experimental
+  owner: Roopa B	
+  system: roopa.br@stryker.com

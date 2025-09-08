@@ -1,0 +1,26 @@
+##ami-00bad9b7a5a30ad15	arn:aws:ec2:us-east-1:570346948435:image/ami-00bad9b7a5a30ad15	ec2:image	us-east-1	570346948435	-	ec2	12	Appliance	wesley.king@stryker.com	Wesley King	Integrations
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ami-00bad9b7a5a30ad15
+  description: arn:aws:ec2:us-east-1:570346948435:image/ami-00bad9b7a5a30ad15
+  #arn: arn:aws:ec2:ap-south-1:570346948435:instance/i-00172be9db26a0349
+  #region: ap-south-1
+  tags: 
+    - account-570346948435
+    - integrations
+    - us-east-1
+    - instance-engage-integration-appliance-6
+  #awsaccount: 570346948435
+  #team: DevOps
+  #email: VCDevOps@Stryker.com
+
+#  # Example for optional annotations
+#  # annotations:
+#  #   github.com/project-slug: backstage/backstage
+#  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: ami
+  lifecycle: experimental
+  owner: 	Wesley King
+  system: wesley.king@stryker.com

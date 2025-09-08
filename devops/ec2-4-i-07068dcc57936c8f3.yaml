@@ -1,0 +1,25 @@
+##i-07068dcc57936c8f3	arn:aws:ec2:us-east-1:570346948435:instance/i-07068dcc57936c8f3	ec2:instance	us-east-1	570346948435	-	ec2	11	UnTaggedEC2	VCDevOps@Stryker.com	Manish J	DevOps
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: i-07068dcc57936c8f3
+  description: arn:aws:ec2:us-east-1:570346948435:instance/i-07068dcc57936c8f3
+  #arn: arn:aws:ec2:ap-south-1:570346948435:instance/i-00172be9db26a0349
+  #region: ap-south-1
+  tags: 
+    - account-570346948435
+    - devops
+    - us-east-1
+  #awsaccount: 570346948435
+  #team: DevOps
+  #email: VCDevOps@Stryker.com
+
+#  # Example for optional annotations
+#  # annotations:
+#  #   github.com/project-slug: backstage/backstage
+#  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: ec2-instance
+  lifecycle: experimental
+  owner: Manish/James
+  system: VCDevOps@Stryker.com

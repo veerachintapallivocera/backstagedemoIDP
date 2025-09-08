@@ -1,0 +1,25 @@
+##arn:aws:acm:us-east-1:570346948435:certificate/208402d6-418c-4250-b0fc-d12c6336a5cc	acm:certificate	us-east-1	570346948435	-	acm	2	(not tagged)	roopa.br@stryker.com	Roopa B	Analytics and Insights
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: acm-208402d6-418c-4250-b0fc-d12c6336a5cc
+  description: arn:aws:acm:us-east-1:570346948435:certificate/208402d6-418c-4250-b0fc-d12c6336a5cc
+  #arn: arn:aws:ec2:ap-south-1:570346948435:instance/i-00172be9db26a0349
+  #region: ap-south-1
+  tags: 
+    - account-570346948435
+    - analytics-and-insights
+    - us-east-1
+  #awsaccount: 570346948435
+  #team: DevOps
+  #email: VCDevOps@Stryker.com
+
+#  # Example for optional annotations
+#  # annotations:
+#  #   github.com/project-slug: backstage/backstage
+#  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: acm
+  lifecycle: experimental
+  owner: Roopa B	
+  system: roopa.br@stryker.com

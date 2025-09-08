@@ -1,0 +1,25 @@
+##hostedplatform-routersha	arn:aws:iam::570346948435:policy/hostedplatform-routersha	iam:policy	global	570346948435	-	iam	3	IamPolicy	rahul.sharma3@stryker.com	Rahul Sharma	Engage
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: iam-hostedplatform-routersha
+  description: arn:aws:iam::570346948435:policy/hostedplatform-routersha
+  #arn: arn:aws:ec2:ap-south-1:570346948435:instance/i-00172be9db26a0349
+  #region: ap-south-1
+  tags: 
+    - account-570346948435
+    - engage
+    - global
+  #awsaccount: 570346948435
+  #team: DevOps
+  #email: VCDevOps@Stryker.com
+
+#  # Example for optional annotations
+#  # annotations:
+#  #   github.com/project-slug: backstage/backstage
+#  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: iam
+  lifecycle: experimental
+  owner: Rahul Sharma
+  system: rahul.sharma3@stryker.com	

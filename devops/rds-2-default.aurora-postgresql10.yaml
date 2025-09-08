@@ -1,0 +1,25 @@
+##default.aurora-postgresql10	arn:aws:rds:us-east-1:570346948435:cluster-pg:default.aurora-postgresql10	rds:cluster-pg	us-east-1	570346948435	-	rds	1	(not tagged)	alexey.shevchuk@stryker.com	Alexey S	OT
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: default.aurora-postgresql10
+  description: aws:rds:us-east-1:570346948435
+  #arn: arn:aws:ec2:ap-south-1:570346948435:instance/i-00172be9db26a0349
+  #region: ap-south-1
+  tags: 
+    - account-570346948435
+    - ot
+    - us-east-1
+  #awsaccount: 570346948435
+  #team: DevOps
+  #email: VCDevOps@Stryker.com
+
+#  # Example for optional annotations
+#  # annotations:
+#  #   github.com/project-slug: backstage/backstage
+#  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: rds
+  lifecycle: experimental
+  owner: Alexey S
+  system: alexey.shevchuk@stryker.com	
