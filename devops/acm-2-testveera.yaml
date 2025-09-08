@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: i-Veeratest
+  description: arn:aws:ec2:us-east-2:570346948435:instance/i-veera test
+  #arn: arn:aws:ec2:ap-south-1:570346948435:instance/i-00172be9db26a0349
+  #region: ap-south-1
+  tags: 
+    - account-570346948435
+    - devops
+    - ap-south-1
+    - score-5 # out of 5
+  #awsaccount: 570346948435
+  #team: DevOps
+  #email: VCDevOps@Stryker.com
+
+#  # Example for optional annotations
+#  # annotations:
+#  #   github.com/project-slug: backstage/backstage
+#  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: ec2-instance
+  lifecycle: experimental
+  owner: Manish/James
+  system: VCDevOps@Stryker.com
