@@ -10,7 +10,7 @@ metadata:
     - account-570346948435
     - engage
     - global
-    - score = 3 # out of 5
+    - score-3 # out of 5
   #awsaccount: 570346948435
   #team: DevOps
   #email: VCDevOps@Stryker.com

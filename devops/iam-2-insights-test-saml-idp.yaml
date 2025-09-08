@@ -10,7 +10,7 @@ metadata:
     - account-570346948435
     - analytics-and-insights
     - global
-    - score = 4 # out of 5
+    - score-4 # out of 5
   #awsaccount: 570346948435
   #team: DevOps
   #email: VCDevOps@Stryker.com
